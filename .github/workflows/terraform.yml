@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Harden GitHub Actions Runner
-        uses: step-security/harden-runner@cb605e52c26070c328afc4562f0b4ada7618a84e
+        uses: step-security/harden-runner@539365ba33fd040cf8c4db243b6f0ed3b32c3283
         with:
           egress-policy: audit
 
@@ -48,7 +48,7 @@ jobs:
 
     steps:
       - name: Harden GitHub Actions Runner
-        uses: step-security/harden-runner@cb605e52c26070c328afc4562f0b4ada7618a84e
+        uses: step-security/harden-runner@539365ba33fd040cf8c4db243b6f0ed3b32c3283
         with:
           egress-policy: audit
 
@@ -77,7 +77,7 @@ jobs:
 
     steps:
       - name: Harden GitHub Actions Runner
-        uses: step-security/harden-runner@cb605e52c26070c328afc4562f0b4ada7618a84e
+        uses: step-security/harden-runner@539365ba33fd040cf8c4db243b6f0ed3b32c3283
         with:
           egress-policy: audit
 
@@ -108,7 +108,7 @@ jobs:
 
     steps:
       - name: Harden GitHub Actions Runner
-        uses: step-security/harden-runner@cb605e52c26070c328afc4562f0b4ada7618a84e
+        uses: step-security/harden-runner@539365ba33fd040cf8c4db243b6f0ed3b32c3283
         with:
           egress-policy: audit
 
